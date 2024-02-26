@@ -1,0 +1,12 @@
+* text=auto
+
+# Denote files that are binary and should not be modified
+*.png binary
+*.jpg binary
+
+# Denote files that should have LF endings (Unix-style)
+*.sh eol=lf
+
+# Denote files that should have CRLF endings (Windows-style)
+*.css eol=crlf
+*.json eol=crlf
